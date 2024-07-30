@@ -1,0 +1,161 @@
+body,
+menu {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+
+
+
+}
+
+/* menu {
+  background-color: black;
+  width: 10em;
+  height: 100%;
+}
+
+menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+menu li {
+  padding: 1rem;
+  list-style: none;
+}
+menu a {
+  text-decoration: none;
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+menu a:hover {
+  color: white; }*/
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
+    border-style: solid 1px
+    ;
+    border-color: #CDC3E6;
+    flex-basis: 25%;
+   
+   
+  }
+
+  
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 15em;
+border: #CDC3E6 solid 1px;
+
+
+  flex-grow: 1;
+ 
+}
+
+
+
+  .thumbnail {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 100px;  /* Rounded border */
+      width: 80px; /* Set a small width */
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+  .tinythumbnail {
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 100px;  /* Rounded border */
+    width: 50px; /* Set a small width */
+  }
+
+  .card-header {
+    font-size: 16px;
+  }
+
+.estado {
+    font-size: 12px;
+    color: #BEC1BB;
+}
+  .iconos {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 5px;
+  }
+
+  i {
+    padding: 3px;
+  }
+
+
+  .card-body {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+
+  }
+
+  .botón {
+    width: 15em;
+    border: #CDC3E6 solid 1px;
+    padding: 2em;
+  }
+
+  .nuevochat:hover {
+    background-color: #CDC3E6;
+  }
+
+  .nuevochat {
+    text-align: center;
+    background-color: #A491D2;
+    padding:1em;
+  color: white;
+
+  
+  }
+  
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+flex-basis: 76%;
+}
+
+.content {
+  font-size: 1.4em;
+  width: 100%;
+  padding: 1em 8em;
+  text-align: center;
+}
+h1 {
+  font-size: 45px;
+}
+
+p {
+  font-size: 16px;
+}
+.hand {
+  height: 18em;
+
+}
+
