@@ -13,9 +13,17 @@
       "menu main main main"
       "footer footer footer footer";
   }
+  .grid-container2 {
+    display: grid;
+        display: grid;
+        grid-template-columns: auto auto auto; 
+        gap: 1rem;
+     
+    }
+    
   
 
-}
+
 .grid-item {
   /* background-color: aqua; */
 }
@@ -51,9 +59,12 @@ menu {
 main {
   grid-area: main;
   background-color: #66f;
+  height: 100vh;
 }
 footer {
   grid-area: footer;
-  background-color: #66f;
+  background-color: rgb(138, 32, 89);
+  text-align: center;
+  color: aliceblue;
 }
 
