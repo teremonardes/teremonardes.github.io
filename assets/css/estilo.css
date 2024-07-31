@@ -7,64 +7,102 @@
 .grid-container {
   display: grid;
 
-    display: grid;
-    grid-template-areas:
-      "header header header header"
-      "menu main main main"
-      "footer footer footer footer";
-  }
-  .grid-container2 {
-    display: grid;
-        display: grid;
-        grid-template-columns: auto auto auto; 
-        gap: 1rem;
-     
-    }
-    
-  
 
+  grid-template-areas:
+    "header header header header header header header"
+    "menu main main main main main main"
+    "footer footer footer footer footer footer footer";
+}
+.grid-container2 {
+  display: grid;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  
+}
 
 .grid-item {
-  /* background-color: aqua; */
+width: 20rem;
 }
 
-.cards {
-  display: flex;
-}
+
+
+
 .card {
   display: flex;
   flex-direction: column;
-  width: 10em;
+  width: auto;
   border: solid 1px;
   margin: 5px;
   padding: 5px;
+  text-align: center;
+
 }
 .card-body {
   flex-grow: 1;
 }
 
+.card-footer {
+    font-weight: 900
+    ;
+    background-color: rgb(109, 35, 68);
+  color: white;
+}
+
+.card-header {
+    font-weight: 700;
+}
+
 header {
   grid-area: header;
-  background-color: rgb(138, 32, 89);
+  background-color: rgb(255, 255, 255);
   height: 4rem;
-  text-align: center;
-  color: aliceblue;
-  
-  
-}
-menu {
-  grid-area: menu;
-  background-color: #66f;
-}
-main {
-  grid-area: main;
-  background-color: #66f;
-  height: 100vh;
-}
-footer {
-  grid-area: footer;
-  background-color: rgb(138, 32, 89);
   text-align: center;
   color: aliceblue;
 }
 
+header img {
+  height: 4rem;
+}
+menu {
+  grid-area: menu;
+  background-color: rgb(109, 35, 68);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   
+}
+
+menu p {
+    margin-top: 1rem;
+}
+
+menu h3 {
+    margin-top: 1rem;
+}
+
+main {
+  grid-area: main;
+  background-color: white;
+  height: auto;
+  padding-left: 1rem;
+ 
+}
+footer {
+  grid-area: footer;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 1rem;
+}
+
+body {
+    font-family: quicksand;
+}
+
+/* .quicksand-<uniquifier > {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
